@@ -54,7 +54,7 @@ export const Contact: React.FC = () => {
 
   const onFinish = async (values: FormValues) => {
     try {
-      const res = await axios.post('http://localhost:5000/api/submit', values);
+      const res = await axios.post('https://website-backend-7wze.onrender.com/api/submit', values);
       form.resetFields();
       navigate('/success', { state: { message: res.data.message } });
     } catch {
