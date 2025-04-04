@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: 'http://localhost:5173', 
+    origin: 'https://golden-druid-0cb4d9.netlify.app', 
     methods: ['POST'], 
     allowedHeaders: ['Content-Type'], 
   })
