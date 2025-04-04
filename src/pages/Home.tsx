@@ -10,9 +10,9 @@ const HeroSection = styled.section`
   display: flex;
   padding: 2rem;
   gap: 2rem;
-  border: 1px solid #d9d9d9; /* Границы */
-  background-color: #f5f5f5; /* Серый фон */
-  border-radius: 4px; /* Скругленные углы */
+  border: 1px solid #d9d9d9; 
+  background-color: #f5f5f5; 
+  border-radius: 4px; 
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -28,11 +28,11 @@ const VideoBlock = styled.div`
 
 const LessImportantTitleSection = styled.section`
   padding: 2rem;
-  border: 1px solid #d9d9d9; /* Границы */
-  background-color: #f5f5f5; /* Серый фон */
-  border-radius: 4px; /* Скругленные углы */
-  text-align: center; /* Центрируем содержимое */
-  margin-top: 2rem; /* Отступ сверху от ImportantTitle */
+  border: 1px solid #d9d9d9; 
+  background-color: #f5f5f5; 
+  border-radius: 4px; 
+  text-align: center; 
+  margin-top: 2rem; 
 `;
 
 export const Home: React.FC = () => (
